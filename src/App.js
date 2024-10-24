@@ -1,10 +1,16 @@
+// src/App.js
 import React from 'react';
-import MapComponent from './components/MapComponent';
+import './App.css';
+import Map from './Map';
+import 'leaflet/dist/leaflet.css';
 
 function App() {
   return (
     <div className="App">
-      <MapComponent />
+    <nav className="navbar">
+      <h1>Leaflet Location Map</h1>
+    </nav>
+      <Map />
     </div>
   );
 }
