@@ -1,25 +1,24 @@
-
 .App {
-  text-align: center;
-}
-
-.navbar {
-  width: 100%;
-  background-color: #290026;
-  color: white;
-  padding: 20px;
-  position: fixed; /* Fix the navbar at the top */
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
-}
-
-.navbar h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.map-container {
-  padding-top: 100px; /* Add padding to account for the fixed navbar */
-}
+    text-align: center;
+  }
+  
+  .navbar {
+    width: 100%;
+    background-color: #290026;
+    color: white;
+    padding: 20px;
+    position: fixed; /* Fix the navbar at the top */
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .navbar h1 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .map-container {
+    padding-top: 100px; /* Add padding to account for the fixed navbar */
+  }
